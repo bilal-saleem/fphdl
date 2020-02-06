@@ -18,7 +18,7 @@ guide](./Fixed_ug.pdf) and
 a [Floating Point user's
 guide](./Float_ug.pdf).  
 Please check the [Fixed and floating point
-FAQ](./fpfaq.html) (NEW\!)
+FAQ](./fpfaq.md) (NEW\!)
 if you have any quesiton.
 
 The VHDL-2008 packages will eventually be included in your vendor's
@@ -33,25 +33,25 @@ VHDL-93 versions of the VHDL-2008 packages
   - Additions to std.standard
     [standard\_additions\_c.vhdl](./standard_additions_c.vhdl)
     ([user's
-    guide](./standard_additions.html))
+    guide](./standard_additions.md))
   - New package std.env
     [env\_c.vhdl](./env_c.vhdl)
   - Additions to std.textio
     [standard\_textio\_additions\_c.vhdl](./standard_textio_additions_c.vhdl)
     ([user's
-    guide](./std_textio_additions.html))
+    guide](./std_textio_additions.md))
   - Additions to ieee.std\_logic\_1164
     [std\_logic\_1164\_additions.vhdl](./std_logic_1164_additions.vhdl)
     ([user's
-    guide](./std_logic_1164_additions.html))
+    guide](./std_logic_1164_additions.md))
   - Additions to ieee.numeric\_std
     [numeric\_std\_additions.vhdl](./numeric_std_additions.vhdl)
     ([user's
-    guide](./numeric_std_additions.html))
+    guide](./numeric_std_additions.md))
   - New package numeric\_std\_unsigned
     [numeric\_std\_unsigned\_c.vhdl](./numeric_std_unsigned_c.vhdl)
     ([user's
-    guide](./numeric_std_unsigned.html))
+    guide](./numeric_std_unsigned.md))
   - New package fixed\_float\_types
     [fixed\_float\_types\_c.vhdl](./fixed_float_types_c.vhdl)
   - New package fixed\_pkg
@@ -75,16 +75,16 @@ tool.
 
 | Vendor                                      | Zip file                                                                         | Notes                                                                               |
 | ------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| [Altera](http://www.altera.com/)            | [Source code](./altera.zip)         | [Documentation](./altera.html)         |
-| [Cadence ncvhdl](http://www.cadence.com/)   | [Source code](./cadence_ncvhdl.zip) | [Documentation](./cadence_ncvhdl.html) |
-| [Cadence RC (new)](http://www.cadence.com/) | [Source code](./cadence_rc.zip)     | [Documentation](./cadence_rc.html)     |
-| [Modeltech](http://www.model.com/)          | [Source code](./modeltech.zip)      | [Documentation](./modeltech.html)      |
-| [Synopsys](http://www.synopsys.com/)        | [Source code](./synopsys.zip)       | [Documentation](./synopsys.html)       |
-| [Synplicity](http://www.synplicity.com/)    | [Source code](./synplicity.zip)     | [Documentation](./synplicity.html)     |
-| [Xilinx 11.1](http://www.xilinx.com/)       | [Source code](./xilinx_11.zip)      | [Documentation](./xilinx_11.html)      |
-| [Xilinx 9.1](http://www.xilinx.com/)        | [Source code](./xilinx.zip) (old)   | [Documentation](./xilinx.html)         |
-| [VCS](http://www.synopsys.com/)             | [Source code](./vcs.zip)            | [Documentation](./vcs.html)            |
-| [Spectrum 2009a](http://www.mentor.com/)    | [Source code](./leonardo.zip)       | [Documentation](./leonardo.html)       |
+| [Altera](http://www.altera.com/)            | [Source code](./altera.zip)         | [Documentation](./altera.md)         |
+| [Cadence ncvhdl](http://www.cadence.com/)   | [Source code](./cadence_ncvhdl.zip) | [Documentation](./cadence_ncvhdl.md) |
+| [Cadence RC (new)](http://www.cadence.com/) | [Source code](./cadence_rc.zip)     | [Documentation](./cadence_rc.md)     |
+| [Modeltech](http://www.model.com/)          | [Source code](./modeltech.zip)      | [Documentation](./modeltech.md)      |
+| [Synopsys](http://www.synopsys.com/)        | [Source code](./synopsys.zip)       | [Documentation](./synopsys.md)       |
+| [Synplicity](http://www.synplicity.com/)    | [Source code](./synplicity.zip)     | [Documentation](./synplicity.md)     |
+| [Xilinx 11.1](http://www.xilinx.com/)       | [Source code](./xilinx_11.zip)      | [Documentation](./xilinx_11.md)      |
+| [Xilinx 9.1](http://www.xilinx.com/)        | [Source code](./xilinx.zip) (old)   | [Documentation](./xilinx.md)         |
+| [VCS](http://www.synopsys.com/)             | [Source code](./vcs.zip)            | [Documentation](./vcs.md)            |
+| [Spectrum 2009a](http://www.mentor.com/)    | [Source code](./leonardo.zip)       | [Documentation](./leonardo.md)       |
 | Do do:[Aldec](http://www.aldec.com/)        |                                                                                  |                                                                                     |
 
   - [fixed\_noresize.vhdl](./fixed_noresize.vhdl)
