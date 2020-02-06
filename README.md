@@ -14,11 +14,11 @@ VHDL-2008 libraries.   You will also find VHDL-93 compatible code for
 those that do not yet have access to VHDL-2008 compilers.
 
 There is a [Fixed Point user's
-guide](http://www.supernova.thistlethwaites.com/fphdl/Fixed_ug.pdf) and
+guide](./Fixed_ug.pdf) and
 a [Floating Point user's
-guide](http://www.supernova.thistlethwaites.com/fphdl/Float_ug.pdf).  
+guide](./Float_ug.pdf).  
 Please check the [Fixed and floating point
-FAQ](http://www.supernova.thistlethwaites.com/fphdl/fpfaq.html) (NEW\!)
+FAQ](./fpfaq.html) (NEW\!)
 if you have any quesiton.
 
 The VHDL-2008 packages will eventually be included in your vendor's
@@ -31,39 +31,39 @@ copyright restrictions, and may be used for whatever purpose is needed.
 VHDL-93 versions of the VHDL-2008 packages
 
   - Additions to std.standard
-    [standard\_additions\_c.vhdl](http://www.supernova.thistlethwaites.com/fphdl/standard_additions_c.vhdl)
+    [standard\_additions\_c.vhdl](./standard_additions_c.vhdl)
     ([user's
-    guide](http://www.supernova.thistlethwaites.com/fphdl/standard_additions.html))
+    guide](./standard_additions.html))
   - New package std.env
-    [env\_c.vhdl](http://www.supernova.thistlethwaites.com/fphdl/env_c.vhdl)
+    [env\_c.vhdl](./env_c.vhdl)
   - Additions to std.textio
-    [standard\_textio\_additions\_c.vhdl](http://www.supernova.thistlethwaites.com/fphdl/standard_textio_additions_c.vhdl)
+    [standard\_textio\_additions\_c.vhdl](./standard_textio_additions_c.vhdl)
     ([user's
-    guide](http://www.supernova.thistlethwaites.com/fphdl/std_textio_additions.html))
+    guide](./std_textio_additions.html))
   - Additions to ieee.std\_logic\_1164
-    [std\_logic\_1164\_additions.vhdl](http://www.supernova.thistlethwaites.com/fphdl/std_logic_1164_additions.vhdl)
+    [std\_logic\_1164\_additions.vhdl](./std_logic_1164_additions.vhdl)
     ([user's
-    guide](http://www.supernova.thistlethwaites.com/fphdl/std_logic_1164_additions.html))
+    guide](./std_logic_1164_additions.html))
   - Additions to ieee.numeric\_std
-    [numeric\_std\_additions.vhdl](http://www.supernova.thistlethwaites.com/fphdl/numeric_std_additions.vhdl)
+    [numeric\_std\_additions.vhdl](./numeric_std_additions.vhdl)
     ([user's
-    guide](http://www.supernova.thistlethwaites.com/fphdl/numeric_std_additions.html))
+    guide](./numeric_std_additions.html))
   - New package numeric\_std\_unsigned
-    [numeric\_std\_unsigned\_c.vhdl](http://www.supernova.thistlethwaites.com/fphdl/numeric_std_unsigned_c.vhdl)
+    [numeric\_std\_unsigned\_c.vhdl](./numeric_std_unsigned_c.vhdl)
     ([user's
-    guide](http://www.supernova.thistlethwaites.com/fphdl/numeric_std_unsigned.html))
+    guide](./numeric_std_unsigned.html))
   - New package fixed\_float\_types
-    [fixed\_float\_types\_c.vhdl](http://www.supernova.thistlethwaites.com/fphdl/fixed_float_types_c.vhdl)
+    [fixed\_float\_types\_c.vhdl](./fixed_float_types_c.vhdl)
   - New package fixed\_pkg
-    [fixed\_pkg\_c.vhdl](http://www.supernova.thistlethwaites.com/fphdl/fixed_pkg_c.vhdl)
+    [fixed\_pkg\_c.vhdl](./fixed_pkg_c.vhdl)
     ([Fixed Point user's
-    guide](http://www.supernova.thistlethwaites.com/fphdl/Fixed_ug.pdf))
+    guide](./Fixed_ug.pdf))
   - New package float\_pkg
-    [float\_pkg\_c.vhdl](http://www.supernova.thistlethwaites.com/fphdl/float_pkg_c.vhdl)
+    [float\_pkg\_c.vhdl](./float_pkg_c.vhdl)
     ([Floating Point user's
-    guide](http://www.supernova.thistlethwaites.com/fphdl/Float_ug.pdf))
+    guide](./Float_ug.pdf))
   - [ZIP file of all the
-    packages](http://www.supernova.thistlethwaites.com/fphdl/vhdl2008c.zip)
+    packages](./vhdl2008c.zip)
     (updated 09/2010)
 
 I use this code in most of my designs. Many times I find that I have to
@@ -75,41 +75,41 @@ tool.
 
 | Vendor                                      | Zip file                                                                         | Notes                                                                               |
 | ------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| [Altera](http://www.altera.com/)            | [Source code](http://www.supernova.thistlethwaites.com/fphdl/altera.zip)         | [Documentation](http://www.supernova.thistlethwaites.com/fphdl/altera.html)         |
-| [Cadence ncvhdl](http://www.cadence.com/)   | [Source code](http://www.supernova.thistlethwaites.com/fphdl/cadence_ncvhdl.zip) | [Documentation](http://www.supernova.thistlethwaites.com/fphdl/cadence_ncvhdl.html) |
-| [Cadence RC (new)](http://www.cadence.com/) | [Source code](http://www.supernova.thistlethwaites.com/fphdl/cadence_rc.zip)     | [Documentation](http://www.supernova.thistlethwaites.com/fphdl/cadence_rc.html)     |
-| [Modeltech](http://www.model.com/)          | [Source code](http://www.supernova.thistlethwaites.com/fphdl/modeltech.zip)      | [Documentation](http://www.supernova.thistlethwaites.com/fphdl/modeltech.html)      |
-| [Synopsys](http://www.synopsys.com/)        | [Source code](http://www.supernova.thistlethwaites.com/fphdl/synopsys.zip)       | [Documentation](http://www.supernova.thistlethwaites.com/fphdl/synopsys.html)       |
-| [Synplicity](http://www.synplicity.com/)    | [Source code](http://www.supernova.thistlethwaites.com/fphdl/synplicity.zip)     | [Documentation](http://www.supernova.thistlethwaites.com/fphdl/synplicity.html)     |
-| [Xilinx 11.1](http://www.xilinx.com/)       | [Source code](http://www.supernova.thistlethwaites.com/fphdl/xilinx_11.zip)      | [Documentation](http://www.supernova.thistlethwaites.com/fphdl/xilinx_11.html)      |
-| [Xilinx 9.1](http://www.xilinx.com/)        | [Source code](http://www.supernova.thistlethwaites.com/fphdl/xilinx.zip) (old)   | [Documentation](http://www.supernova.thistlethwaites.com/fphdl/xilinx.html)         |
-| [VCS](http://www.synopsys.com/)             | [Source code](http://www.supernova.thistlethwaites.com/fphdl/vcs.zip)            | [Documentation](http://www.supernova.thistlethwaites.com/fphdl/vcs.html)            |
-| [Spectrum 2009a](http://www.mentor.com/)    | [Source code](http://www.supernova.thistlethwaites.com/fphdl/leonardo.zip)       | [Documentation](http://www.supernova.thistlethwaites.com/fphdl/leonardo.html)       |
+| [Altera](http://www.altera.com/)            | [Source code](./altera.zip)         | [Documentation](./altera.html)         |
+| [Cadence ncvhdl](http://www.cadence.com/)   | [Source code](./cadence_ncvhdl.zip) | [Documentation](./cadence_ncvhdl.html) |
+| [Cadence RC (new)](http://www.cadence.com/) | [Source code](./cadence_rc.zip)     | [Documentation](./cadence_rc.html)     |
+| [Modeltech](http://www.model.com/)          | [Source code](./modeltech.zip)      | [Documentation](./modeltech.html)      |
+| [Synopsys](http://www.synopsys.com/)        | [Source code](./synopsys.zip)       | [Documentation](./synopsys.html)       |
+| [Synplicity](http://www.synplicity.com/)    | [Source code](./synplicity.zip)     | [Documentation](./synplicity.html)     |
+| [Xilinx 11.1](http://www.xilinx.com/)       | [Source code](./xilinx_11.zip)      | [Documentation](./xilinx_11.html)      |
+| [Xilinx 9.1](http://www.xilinx.com/)        | [Source code](./xilinx.zip) (old)   | [Documentation](./xilinx.html)         |
+| [VCS](http://www.synopsys.com/)             | [Source code](./vcs.zip)            | [Documentation](./vcs.html)            |
+| [Spectrum 2009a](http://www.mentor.com/)    | [Source code](./leonardo.zip)       | [Documentation](./leonardo.html)       |
 | Do do:[Aldec](http://www.aldec.com/)        |                                                                                  |                                                                                     |
 
-  - [fixed\_noresize.vhdl](http://www.supernova.thistlethwaites.com/fphdl/fixed_noresize.vhdl)
+  - [fixed\_noresize.vhdl](./fixed_noresize.vhdl)
     Similar to "fixed\_pkg", however this version uses the same rules
     that numeric\_std does for the size of the result. This is done by
     calling the funciton in "fixed\_pkg" and resizing the result.
-  - [float\_noround\_pkg.vhdl](http://www.supernova.thistlethwaites.com/fphdl/float_noround_pkg.vhdl)
+  - [float\_noround\_pkg.vhdl](./float_noround_pkg.vhdl)
     Similar to "float\_pkg", however this version turns off all of the
     IEEE rounding and overflow, and defaults to a 26 bit floating point
     number. This package saves off 1/3 of the logic needed for full 32
     bit floating point.
-  - [fixed\_synth.vhdl](http://www.supernova.thistlethwaites.com/fphdl/fixed_synth.vhdl)
+  - [fixed\_synth.vhdl](./fixed_synth.vhdl)
     Synthesis testcase for the fixed point package.  
-    [test\_fixed\_synth.vhdl](http://www.supernova.thistlethwaites.com/fphdl/test_fixed_synth.vhdl)
+    [test\_fixed\_synth.vhdl](./test_fixed_synth.vhdl)
     Testbench for the fixed point synthesis testcase.
-  - [float\_synth.vhdl](http://www.supernova.thistlethwaites.com/fphdl/float_synth.vhdl)
+  - [float\_synth.vhdl](./float_synth.vhdl)
     Synthesis testcase for the floating point package.  
-    [test\_float\_synth.vhdl](http://www.supernova.thistlethwaites.com/fphdl/test_float_synth.vhdl)
+    [test\_float\_synth.vhdl](./test_float_synth.vhdl)
     testbench for the floating point synthesis package
-  - [Testbenches](http://www.supernova.thistlethwaites.com/fphdl/vhdl2008test.zip)
+  - [Testbenches](./vhdl2008test.zip)
     to verify an implimentation of VHDL-2008.
   - [Matrix Math package for type
-    REAL](http://www.supernova.thistlethwaites.com/fphdl/real_matrix_pkg.zip)
+    REAL](./real_matrix_pkg.zip)
     which has a [user
-    guide](http://www.supernova.thistlethwaites.com/fphdl/real_matrix_ug.pdf)
+    guide](./real_matrix_ug.pdf)
     (Done in conjunction with [IEEE 1076.1
     VHDL-AMS](http://www.eda.org/twiki/bin/view.cgi/P10761/))
 
